@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render error for invalid form submition 1`] = `
+<div>
+  <p>
+    Favor informar o nome do caderno
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      onSubmit={[Function]}
+      placeholder="Título"
+      type="text"
+      value=""
+    />
+    <button>
+      Criar Caderno
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render notebook form correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      onSubmit={[Function]}
+      placeholder="Título"
+      type="text"
+      value=""
+    />
+    <button>
+      Criar Caderno
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render notebook form with notebook data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      onSubmit={[Function]}
+      placeholder="Título"
+      type="text"
+      value="Festas"
+    />
+    <button>
+      Criar Caderno
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should set name on name change 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      onSubmit={[Function]}
+      placeholder="Título"
+      type="text"
+      value="abc"
+    />
+    <button>
+      Criar Caderno
+    </button>
+  </form>
+</div>
+`;
